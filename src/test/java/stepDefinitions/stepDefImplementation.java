@@ -23,7 +23,7 @@ public class stepDefImplementation {
         driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/client");
         landingPage = new LandingPage(driver);
-        System.out.println("this is not original");
+        //no need of this println command bro.
 
 
     }
