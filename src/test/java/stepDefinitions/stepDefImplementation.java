@@ -24,6 +24,7 @@ public class stepDefImplementation {
         driver.get("https://rahulshettyacademy.com/client");
         landingPage = new LandingPage(driver);
         //no need of this println command bro.
+        System.out.println("what the bro");
 
 
     }
@@ -31,6 +32,7 @@ public class stepDefImplementation {
     @When("Logged in with username {} and password {}")
     public void loggedInWithUsernameAndPassword(String arg0, String arg1) {
         landingPage.loginApplication(arg0,arg1);
+        System.out.println("what the bro");
 
     }
 
@@ -39,6 +41,8 @@ public class stepDefImplementation {
     public void isToBeDisplayed(String arg0) {
         Assert.assertEquals(arg0,landingPage.getErrorMessage());
         driver.close();
+        System.out.println("what the bro");
+        System.out.println("what the bro");
 
     }
 }
