@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+<listeners>
+    <listener class-name="VarunHasToWork.Listeners"/>
+</listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/jmvar/IdeaProjects/ProjectK/src/test/java/pageObjects/ErrorValidationsTest.java">
+        <classes>
+            <class name="pageObjects.ErrorValidationsTest">
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Submit order">
+        <classes>
+            <class name="pageObjects.MainTest" />
+        </classes>
+
+    </test>
+
+</suite>
